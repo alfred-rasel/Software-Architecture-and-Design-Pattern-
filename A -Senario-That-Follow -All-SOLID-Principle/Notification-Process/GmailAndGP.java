@@ -8,12 +8,15 @@ package onlineshopping;
  *
  * @author Rasel
  */
-public class Gmail implements EmailNotifier {
+public class GmailAndGP implements EmailNotifier, SMSNotifier {
+
+    @Override
+    public void sendSMS() {
+        System.out.println("GP SMS sent.");
+    }
 
     @Override
     public void sendEmail() {
-        // TODO Auto-generated method stub
         System.out.println("Gmail email sent.");
     }
-
 }
