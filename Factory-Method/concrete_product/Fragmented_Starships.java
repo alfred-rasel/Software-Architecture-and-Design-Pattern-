@@ -8,9 +8,8 @@ package factory;
  *
  * @author Rasel
  */
-public class Ice_Asteroids implements Asteroids {
-    @Override
-    public void show() {
-        System.out.println("Ice_Asteroids popped up");
+public class Fragmented_Starships implements Galactic_Wreckage {
+     public void show() {
+        System.out.println("Wormhole_Instabilities");
     }
 }
